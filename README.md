@@ -2,14 +2,69 @@
 This repository is dedicated to exploring **LLM unlearning**, focusing on privacy risks and strategies to effectively and efficiently "forget" specific data from large language models. 
 
 ---
-
 ## Key Topics
 
 ### Privacy Attack
-- **Membership Inference Attacks (MIA):** Identifying training data.
-- **Data Reconstruction Attacks:** Extracting sensitive content.
-- **Privacy Regulation Compliance:** Addressing data deletion requests (e.g., GDPR).
+Privacy attacks target the security and privacy of large language models (LLMs), often aiming to extract sensitive information or infer membership details of the training data. This section categorizes these attacks into two key types: **Extraction Attacks** and **Membership Inference Attacks (MIA)**.
 
+---
+
+#### Extraction Attack
+Extraction attacks attempt to retrieve sensitive data, gradients, or model functionalities through various means, including model theft and training data extraction. Below are key references related to this attack type:
+
+1. **Model Theft Attacks**
+   - **PRADA: Protecting against DNN model stealing attacks**  
+     Highlights protection mechanisms against model theft and replication attempts.  
+     - [Paper Link](https://arxiv.org/abs/1812.02725)
+   - **Maze: Data-free model stealing attack using zeroth-order gradient estimation**  
+     Introduces methods to replicate model functionality without direct access to data.  
+     - [Paper Link](https://arxiv.org/abs/2106.03122)
+
+2. **Gradient Leakage**
+   - **A theoretical insight into attack and defense of gradient leakage in transformers**  
+     Explores how gradient sharing can lead to the leakage of sensitive training data.  
+     - [Paper Link](https://arxiv.org/abs/2311.13624)
+
+3. **Training Data Extraction**
+   - **Extracting Training Data from Large Language Models**  
+     Demonstrates how attackers can reconstruct individual training examples from LLMs.  
+     - [Paper Link](https://arxiv.org/abs/2107.03396)
+   - **Ethicist: Targeted training data extraction through loss-smoothed soft prompting and calibrated confidence estimation**  
+     Presents methods for training data extraction using soft prompting and confidence estimation.  
+     - [Paper Link](https://arxiv.org/abs/2307.04401)
+   - **Towards Demystifying Membership Inference Attacks**  
+     Analyzes mechanisms behind successful data extraction and membership inference.  
+     - [Paper Link](https://arxiv.org/abs/1807.09173)
+   - **What Do Code Models Memorize? An Empirical Study on Large Language Models of Code**  
+     Examines memorization in LLMs, particularly in coding datasets.  
+     - [Paper Link](https://arxiv.org/abs/2308.09932)
+
+4. **Replication Without Model Data**
+   - **Data-Free Model Extraction**  
+     Investigates techniques for replicating model functionality without direct access to model weights or data.  
+     - [Paper Link](https://arxiv.org/abs/2106.09892)
+
+5. **Private Information Extraction**
+   - **Privacy and Inference Risks in Language Models**  
+     Discusses risks associated with LLMs generating private or sensitive information.  
+     - [Paper Link](https://arxiv.org/abs/2209.10505)
+
+---
+
+#### Membership Inference Attacks (MIA)
+Membership inference attacks aim to determine whether a specific data point was part of a model's training set. These attacks are critical in evaluating the privacy vulnerabilities of LLMs.
+
+- **Membership Inference Attacks from First Principles**  
+  Proposes foundational techniques for membership inference in modern LLMs.  
+  - [Paper Link](https://arxiv.org/abs/2203.03319)
+
+- **Evaluating Membership Inference Vulnerabilities in LLMs**  
+  Analyzes conditions under which membership inference attacks are more likely to succeed.  
+  - [Paper Link](https://arxiv.org/abs/2303.00117)
+
+- **Fine-Tuning Vulnerabilities to Membership Inference**  
+  Demonstrates that fine-tuning LLMs increases susceptibility to membership inference attacks.  
+  - [Paper Link](https://arxiv.org/abs/2107.10119)
 ---
 
 ## Unlearning Techniques
