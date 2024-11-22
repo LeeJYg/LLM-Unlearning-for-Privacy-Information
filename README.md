@@ -91,87 +91,29 @@ It focuses on prompt-based methods to guide the model towards forgetting sensiti
 
 This section summarizes the evaluation methods for assessing the effectiveness of unlearning techniques in large language models. The evaluation framework includes key tasks such as **knowledge memorization**, **knowledge manipulation**, **membership inference attacks (MIA)**, **query rewriting attack**, and **white-box attacks**. Each method is detailed with its corresponding evaluation scope and benchmarks.
 
----
+- **RWKU: Benchmarking Real-World Knowledge Unlearning**  
+   - **Description:** Provides a comprehensive benchmarking framework to evaluate unlearning in real-world scenarios.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2404.00123)
 
-### Evaluation Methods and Benchmarks
+- **MUSE: Machine Unlearning Six-Way Evaluation**  
+   - **Description:** Introduces a six-way evaluation framework testing multiple aspects of unlearning.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2404.00234)
 
-#### RWKU: Benchmarking Real-World Knowledge Unlearning
-- **Description:** Provides a comprehensive benchmarking framework to evaluate unlearning in real-world scenarios.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ✅  
-  - MIA: ✅  
-  - Query Rewrite: ✅  
-  - White-box Attack: ❌  
-- **Venue:** ArXiv  
-- **Year:** 2024  
+- **TOFU: A Task of Fictitious Unlearning**  
+   - **Description:** Uses synthetic datasets to evaluate unlearning performance on fictitious entities.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
 
----
+- **WHP: Who’s Harry Potter? Approximate Unlearning**  
+   - **Description:** Focuses on unlearning specific entities, such as fictional characters, using approximate methods.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2310.02238)
 
-#### MUSE: Machine Unlearning Six-Way Evaluation
-- **Description:** Introduces a six-way evaluation framework that tests multiple aspects of unlearning.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ✅  
-  - MIA: ✅  
-  - Query Rewrite: ✅  
-  - White-box Attack: ❌  
-- **Venue:** ArXiv  
-- **Year:** 2024  
+- **Attack-and-Defence: Can Sensitive Information Be Deleted?**  
+   - **Description:** Analyzes the feasibility of deleting sensitive information under adversarial conditions.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2404.05868)
 
----
-
-#### TOFU: A Task of Fictitious Unlearning
-- **Description:** Focuses on unlearning tasks using synthetic datasets to assess unlearning on fictitious entities.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ✅  
-  - MIA: ✅  
-  - Query Rewrite: ❌  
-  - White-box Attack: ❌  
-- **Venue:** ArXiv  
-- **Year:** 2024  
-
----
-
-#### WHP: Who’s Harry Potter? Approximate Unlearning
-- **Description:** Evaluates the unlearning of specific entities, such as fictional characters, from LLMs using approximate methods.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ✅  
-  - MIA: ✅  
-  - Query Rewrite: ❌  
-  - White-box Attack: ❌  
-- **Venue:** ArXiv  
-- **Year:** 2024  
-
----
-
-#### Attack-and-Defence: Can Sensitive Information Be Deleted?
-- **Description:** Analyzes the feasibility of deleting sensitive information under adversarial settings.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ❌  
-  - MIA: ✅  
-  - Query Rewrite: ❌  
-  - White-box Attack: ✅  
-- **Venue:** ICLR  
-- **Year:** 2024  
-
----
-
-#### WMDP: The WMDP Benchmark
-- **Description:** Focuses on measuring unlearning performance across diverse datasets using white-box access.  
-- **Tasks:**  
-  - Memorization: ✅  
-  - Manipulation: ❌  
-  - MIA: ✅  
-  - Query Rewrite: ❌  
-  - White-box Attack: ✅  
-- **Venue:** ICML  
-- **Year:** 2024  
-
----
+- **WMDP: The WMDP Benchmark**  
+   - **Description:** Focuses on measuring unlearning performance across diverse datasets using white-box access.  
+   - **Reference:** [Paper Link](https://arxiv.org/abs/2403.10557)---
 
 
 ---
