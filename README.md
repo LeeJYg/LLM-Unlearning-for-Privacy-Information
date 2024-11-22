@@ -49,9 +49,9 @@ Membership inference attacks aim to determine whether a specific data point was 
    - **Description:** This study analyzes the underlying mechanisms of membership inference attacks and identifies scenarios where such attacks are most effective.  
    - [Paper Link](https://arxiv.org/abs/1807.09173)
 
-- **Fine-Tuning Vulnerabilities to Membership Inference**  
-   - **Description:** This paper demonstrates how fine-tuning LLMs increases their susceptibility to membership inference attacks compared to adapter-based or other lightweight tuning methods.  
-   - [Paper Link](https://arxiv.org/abs/2107.10119)
+- **Inexact Unlearning Needs More Careful Evaluations to Avoid a False Sense of Privacy**  
+   - **Description:** This paper proposes per-example U-MIA, a stronger version of conventional MIA, to be utilized in unlearning evaluation.
+   - [Paper Link](https://arxiv.org/abs/2403.01218)
 
 ---
 
@@ -101,17 +101,14 @@ Parameter optimization involves modifying model parameters to effectively "forge
 ### Parameter Merging Method
 Parameter merging focuses on reducing computational costs by applying arithmetic operations or selectively pruning model components.
 
-#### Task Vectors
 - **Editing Models with Task Arithmetic**  
   - **Description:** Introduced task vectors to define trajectories in weight space for flexible model alterations, including unlearning.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2203.13124)
 
-#### Linear Arithmetic Operations
 - **Composing Parameter-Efficient Modules with Arithmetic Operations**  
   - **Description:** Uses linear arithmetic operations like addition and negation to integrate parameter-efficient modules without retraining.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2403.02124)
 
-#### Selective Neuron Pruning
 - **Dissecting Language Models: Machine Unlearning via Selective Pruning**  
   - **Description:** Identifies and removes neurons related to specific behaviors, maintaining network efficiency.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2403.01267)
