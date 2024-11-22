@@ -18,7 +18,7 @@ This section categorizes and summarizes the key techniques in LLM unlearning, in
 
 ---
 
-### Parameter Optimization
+### Parameter Optimization Method
 Parameter optimization involves modifying model parameters to effectively "forget" specific data while maintaining the utility of the remaining model. This category includes gradient-based methods, second-order optimization, and general frameworks.
 
 #### Gradient-Based Methods
@@ -51,7 +51,7 @@ Parameter optimization involves modifying model parameters to effectively "forge
 
 ---
 
-### Parameter Merging
+### Parameter Merging Method
 Parameter merging focuses on reducing computational costs by applying arithmetic operations or selectively pruning model components.
 
 #### Task Vectors
@@ -71,7 +71,7 @@ Parameter merging focuses on reducing computational costs by applying arithmetic
 
 ---
 
-### In-Context Unlearning (ICuL)
+### Parameter Agnostic Method
 ICuL is a lightweight and flexible strategy designed for scenarios where only the model's API is accessible. It focuses on prompt-based methods to guide the model towards forgetting sensitive data dynamically.
 
 - **In-Context Unlearning for LLMs**  
