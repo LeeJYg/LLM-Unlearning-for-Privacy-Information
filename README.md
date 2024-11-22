@@ -10,44 +10,39 @@ Privacy attacks target the security and privacy of large language models (LLMs),
 ---
 
 #### Extraction Attack
-Extraction attacks attempt to retrieve sensitive data, gradients, or model functionalities through various means, including model theft and training data extraction. Below are key references related to this attack type:
+Extraction attacks attempt to retrieve sensitive data, gradients, or model functionalities through various means, including model theft and training data extraction.
 
-1. **Model Theft Attacks**
-   - **PRADA: Protecting against DNN model stealing attacks**  
-     Highlights protection mechanisms against model theft and replication attempts.  
-     - [Paper Link](https://arxiv.org/abs/1812.02725)
-   - **Maze: Data-free model stealing attack using zeroth-order gradient estimation**  
-     Introduces methods to replicate model functionality without direct access to data.  
-     - [Paper Link](https://arxiv.org/abs/2106.03122)
-
-2. **Gradient Leakage**
-   - **A theoretical insight into attack and defense of gradient leakage in transformers**  
-     Explores how gradient sharing can lead to the leakage of sensitive training data.  
-     - [Paper Link](https://arxiv.org/abs/2311.13624)
-
-3. **Training Data Extraction**
-   - **Extracting Training Data from Large Language Models**  
-     Demonstrates how attackers can reconstruct individual training examples from LLMs.  
-     - [Paper Link](https://arxiv.org/abs/2107.03396)
-   - **Ethicist: Targeted training data extraction through loss-smoothed soft prompting and calibrated confidence estimation**  
-     Presents methods for training data extraction using soft prompting and confidence estimation.  
-     - [Paper Link](https://arxiv.org/abs/2307.04401)
-   - **Towards Demystifying Membership Inference Attacks**  
-     Analyzes mechanisms behind successful data extraction and membership inference.  
-     - [Paper Link](https://arxiv.org/abs/1807.09173)
-   - **What Do Code Models Memorize? An Empirical Study on Large Language Models of Code**  
-     Examines memorization in LLMs, particularly in coding datasets.  
-     - [Paper Link](https://arxiv.org/abs/2308.09932)
-
-4. **Replication Without Model Data**
-   - **Data-Free Model Extraction**  
-     Investigates techniques for replicating model functionality without direct access to model weights or data.  
-     - [Paper Link](https://arxiv.org/abs/2106.09892)
-
-5. **Private Information Extraction**
-   - **Privacy and Inference Risks in Language Models**  
-     Discusses risks associated with LLMs generating private or sensitive information.  
-     - [Paper Link](https://arxiv.org/abs/2209.10505)
+- **PRADA: Protecting against DNN model stealing attacks**  
+  Highlights protection mechanisms against model theft and replication attempts.  
+  - [Paper Link](https://arxiv.org/abs/1812.02725)
+    
+- **Maze: Data-free model stealing attack using zeroth-order gradient estimation**  
+  Introduces methods to replicate model functionality without direct access to data.  
+  - [Paper Link](https://arxiv.org/abs/2106.03122)
+    
+- **A theoretical insight into attack and defense of gradient leakage in transformers**  
+  Explores how gradient sharing can lead to the leakage of sensitive training data.  
+  - [Paper Link](https://arxiv.org/abs/2311.13624)
+    
+- **Extracting Training Data from Large Language Models**  
+  Demonstrates how attackers can reconstruct individual training examples from LLMs.  
+  - [Paper Link](https://arxiv.org/abs/2107.03396)
+    
+- **Ethicist: Targeted training data extraction through loss-smoothed soft prompting and calibrated confidence estimation**  
+  Presents methods for training data extraction using soft prompting and confidence estimation.  
+  - [Paper Link](https://arxiv.org/abs/2307.04401)
+    
+- **Towards Demystifying Membership Inference Attacks**  
+  Analyzes mechanisms behind successful data extraction and membership inference.  
+  - [Paper Link](https://arxiv.org/abs/1807.09173)
+    
+- **What Do Code Models Memorize? An Empirical Study on Large Language Models of Code**  
+  Examines memorization in LLMs, particularly in coding datasets.  
+  - [Paper Link](https://arxiv.org/abs/2308.09932)
+   
+- **Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers**  
+  Discusses risks associated with LLMs generating private or sensitive information.  
+  - [Paper Link](https://arxiv.org/abs/2209.10505)
 
 ---
 
