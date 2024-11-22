@@ -14,7 +14,7 @@ This repository is dedicated to exploring **LLM unlearning**, focusing on privac
 
 ## Unlearning Techniques
 
-This section categorizes and summarizes the key techniques in LLM unlearning, including **Parameter Optimization**, **Parameter Merging**, and **In-Context Unlearning (ICuL)**. Each technique is described alongside its key methods and referenced works.
+This section categorizes and summarizes the key techniques in unlearning, including **Parameter Optimization Method**, **Parameter Merging Method**, and **Parameter Agnostic Method**. Each technique is described alongside its key methods and referenced works.
 
 ---
 
@@ -33,6 +33,10 @@ Parameter optimization involves modifying model parameters to effectively "forge
   - **Description:** Uses gradient ascent for unlearning and propose how to evaluate privacy protection of unlearning method
   - **Reference:** [Paper Link](https://arxiv.org/abs/2210.01504)
 
+- **Negative Preference Optimization: From Catastrophic Collapse to Effective Unlearning**  
+  - **Description:** Introduces a preference optimization framework to prevent catastrophic collapse during gradient ascent-based unlearning.  
+  - **Reference:** [Paper Link](https://arxiv.org/abs/2404.05868)
+
 - **Second-Order Information Matters**  
   - **Description:** Employs Hessian-based methods for precise parameter adjustments to ensure privacy protection.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2403.10557)
@@ -45,9 +49,9 @@ Parameter optimization involves modifying model parameters to effectively "forge
   - **Description:** Introduces metrics like forget, mismatch, and maintain to optimize unlearning while balancing generalization and utility.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2402.10058)
 
-- **TOFU: Task of Fictitious Unlearning**  
-  - **Description:** Uses a dataset of synthetic author profiles to benchmark unlearning techniques. Fine-tuning and KL-divergence metrics are applied for diverse datasets.  
-  - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
+- **DEPN: Detecting and Editing Privacy Neurons in Pretrained Language Models**  
+  - **Description:** Detects and deactivates neurons associated with private information to perform unlearning.  
+  - **Reference:** [Paper Link](https://arxiv.org/abs/2310.20138)
 
 ---
 
@@ -92,9 +96,10 @@ ICuL is a lightweight and flexible strategy designed for scenarios where only th
 ---
 
 ## Existing Unlearning Evaluation Framework
-- **Unlearning Effectiveness:** Assessing removal completeness.
-- **Privacy Metrics:** Measuring resilience against adversarial attacks.
-- **Model Utility:** Evaluating performance trade-offs in downstream tasks.
+
+- **TOFU: Task of Fictitious Unlearning**  
+  - **Description:** Uses a dataset of synthetic author profiles to benchmark unlearning techniques. Fine-tuning and KL-divergence metrics are applied for diverse datasets.  
+  - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
 
 ---
 
