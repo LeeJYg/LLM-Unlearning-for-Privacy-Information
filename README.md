@@ -21,7 +21,6 @@ This section categorizes and summarizes the key techniques in LLM unlearning, in
 ### Parameter Optimization Method
 Parameter optimization involves modifying model parameters to effectively "forget" specific data while maintaining the utility of the remaining model. This category includes gradient-based methods, second-order optimization, and general frameworks.
 
-#### Gradient-Based Methods
 - **Who’s Harry Potter? Approximate Unlearning in LLMs**  
   - **Description:** Fine-tunes models to erase specific knowledge by swapping unique phrases with generalized alternatives.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2310.02238)
@@ -29,13 +28,15 @@ Parameter optimization involves modifying model parameters to effectively "forge
 - **Partitioned Contrastive Gradient Unlearning (PCGU)**  
   - **Description:** Uses first-order gradient approximations to refine weights and efficiently remove biases.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2311.07568)
+ 
+- **Knowledge unlearning for mitigating privacy risks in language models**  
+  - **Description:** Uses gradient ascent for unlearning and propose how to evaluate privacy protection of unlearning method
+  - **Reference:** [Paper Link](https://arxiv.org/abs/2210.01504)
 
-#### Second-Order Optimization
 - **Second-Order Information Matters**  
   - **Description:** Employs Hessian-based methods for precise parameter adjustments to ensure privacy protection.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2403.10557)
 
-#### General Frameworks
 - **KGA: A General Machine Unlearning Framework**  
   - **Description:** Aligns distribution gaps between learned and unlearned data, effectively applied to various NLP tasks.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2305.06535)
@@ -44,7 +45,6 @@ Parameter optimization involves modifying model parameters to effectively "forge
   - **Description:** Introduces metrics like forget, mismatch, and maintain to optimize unlearning while balancing generalization and utility.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2402.10058)
 
-#### New Tasks and Benchmarks
 - **TOFU: Task of Fictitious Unlearning**  
   - **Description:** Uses a dataset of synthetic author profiles to benchmark unlearning techniques. Fine-tuning and KL-divergence metrics are applied for diverse datasets.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
