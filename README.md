@@ -76,7 +76,7 @@ Parameter merging focuses on reducing computational costs by applying arithmetic
 ---
 
 ### Parameter Agnostic Method
-ICuL is a lightweight and flexible strategy designed for scenarios where only the model's API is accessible. It focuses on prompt-based methods to guide the model towards forgetting sensitive data dynamically.
+It focuses on prompt-based methods to guide the model towards forgetting sensitive data dynamically.
 
 - **In-Context Unlearning for LLMs**  
   - **Description:** Uses unlearning samples as prompts to adjust the model's outputs without modifying internal parameters.  
@@ -84,14 +84,6 @@ ICuL is a lightweight and flexible strategy designed for scenarios where only th
     - Reduces computational costs.  
     - Suitable for real-time or on-demand unlearning.  
   - **Reference:** [Paper Link](https://arxiv.org/abs/2310.07579)
-
----
-
-#### New Tasks and Benchmarks
-- **TOFU: Task of Fictitious Unlearning**  
-  - **Description:** Defined a novel unlearning task using a dataset of 200 synthetic author profiles.  
-  - **Approach:** Fine-tuning and gradient ascent with KL-divergence to improve unlearning on diverse datasets.  
-  - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
 
 ---
 
