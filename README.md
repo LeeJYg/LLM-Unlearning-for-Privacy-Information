@@ -10,13 +10,8 @@ This repository is dedicated to exploring **LLM unlearning**, focusing on privac
 - **Privacy Regulation Compliance:** Addressing data deletion requests (e.g., GDPR).
 
 ### Unlearning Techniques
-- # Parameter Optimization in LLM Unlearning
-
+####Parameter Optimization in LLM Unlearning
 This section summarizes key works in parameter optimization for LLM unlearning, focusing on methods such as gradient ascent, reversed gradient, and second-order optimization. Each referenced work is linked to its corresponding paper.
-
----
-
-## Key Works and Approaches
 
 ### Gradient-Based Methods
 - **Who’s Harry Potter? Approximate Unlearning in LLMs**  
