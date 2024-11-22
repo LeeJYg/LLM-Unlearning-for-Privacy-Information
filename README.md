@@ -91,28 +91,42 @@ It focuses on prompt-based methods to guide the model towards forgetting sensiti
 
 This section summarizes the evaluation methods for assessing the effectiveness of unlearning techniques in large language models. The evaluation framework includes key tasks such as **knowledge memorization**, **knowledge manipulation**, **membership inference attacks (MIA)**, **query rewriting attack**, and **white-box attacks**. Each method is detailed with its corresponding evaluation scope and benchmarks.
 
+### Evaluation Methods Table
+
+| ID  | Method Name             | Paper Title                                               | Venue  | Year | Retrain Model | Memorization | Manipulation | MIA  | Query Rewrite | White-box Attack |
+|-----|--------------------------|----------------------------------------------------------|--------|------|---------------|--------------|--------------|------|---------------|------------------|
+| 1   | RWKU                   | RWKU: Benchmarking Real-World Knowledge Unlearning        | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ✅            | ❌               |
+| 2   | MUSE                   | MUSE: Machine Unlearning Six-Way Evaluation               | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ✅            | ❌               |
+| 3   | TOFU                   | TOFU: A Task of Fictitious Unlearning                     | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ❌            | ❌               |
+| 4   | WHP                    | Who’s Harry Potter? Approximate Unlearning               | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ❌            | ❌               |
+| 5   | Attack-and-Defence     | Can Sensitive Information Be Deleted?                     | ICLR   | 2024 | ✅             | ✅           | ❌           | ✅   | ❌            | ✅               |
+| 6   | WMDP                   | The WMDP Benchmark: Measuring Unlearning Performance      | ICML   | 2024 | ✅             | ✅           | ❌           | ✅   | ❌            | ✅               |
+---
+
+### Detailed Descriptions and Links
+
 - **TOFU: A Task of Fictitious Unlearning**  
-   - **Description:** Uses synthetic datasets to evaluate unlearning performance on fictitious entities.  
+   - **Description:** Uses synthetic datasets of author profiles to benchmark unlearning techniques.
    - **Reference:** [Paper Link](https://arxiv.org/abs/2401.06121)
 
 - **WHP: Who’s Harry Potter? Approximate Unlearning**  
-   - **Description:** Focuses on unlearning specific entities, such as fictional characters, using approximate methods.  
+   - **Description:** Focuses on unlearning specific copyrighted data (e.g., Harry Potter books) using fine-tuning with alternative labels. It also propose a new task for evaluating unlearning algorithm
    - **Reference:** [Paper Link](https://arxiv.org/abs/2310.02238)
  
 - **RWKU: Benchmarking Real-World Knowledge Unlearning**  
-   - **Description:** Provides a comprehensive benchmarking framework to evaluate unlearning in real-world scenarios.  
+   - **Description:** Evaluates real-world knowledge unlearning across various applications. It uses popular figures as unlearning targets and employs rigorous testing methods, including membership inference and adversarial attack probes, to assess unlearning efficacy.  
    - **Reference:** [Paper Link](https://arxiv.org/abs/2406.10890)
 
 - **MUSE: Machine Unlearning Six-Way Evaluation**  
-   - **Description:** Introduces a six-way evaluation framework testing multiple aspects of unlearning.  
+   - **Description:** Defines six desirable properties for unlearning models: verbatim memorization, knowledge memorization, privacy leakage, utility preservation, scalability, and sustainability. It benchmarks unlearning on Harry Potter books and news articles.  
    - **Reference:** [Paper Link](https://arxiv.org/abs/2407.06460)
 
 - **Can Sensitive Information Be Deleted From LLMs? Objectives for Defending Against Extraction Attacks**  
-   - **Description:** Analyzes the feasibility of deleting sensitive information under adversarial conditions.  
+   - **Description:** Investigate methods for deleting sensitive information directly from model weights, proposing an attack-and-defense framework to ensure safety and privacy.
    - **Reference:** [Paper Link](https://arxiv.org/abs/2309.17410)
 
 - **The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning**  
-   - **Description:** Focuses on measuring unlearning performance across diverse datasets using white-box access.  
+   - **Description:** Public benchmark for evaluating hazardous knowledge in LLMs, particularly related to biosecurity, cybersecurity, and chemical security. It also serves as a benchmark for unlearning methods to mitigate malicious capabilities.  
    - **Reference:** [Paper Link](https://arxiv.org/abs/2403.03218)
 
 
