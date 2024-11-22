@@ -12,54 +12,47 @@ Privacy attacks target the security and privacy of large language models (LLMs),
 #### Extraction Attack
 Extraction attacks attempt to retrieve sensitive data, gradients, or model functionalities through various means, including model theft and training data extraction.
 
-- **PRADA: Protecting against DNN model stealing attacks**  
-  Highlights protection mechanisms against model theft and replication attempts.  
-  - [Paper Link](https://arxiv.org/abs/1812.02725)
-    
 - **Maze: Data-free model stealing attack using zeroth-order gradient estimation**  
-  Introduces methods to replicate model functionality without direct access to data.  
-  - [Paper Link](https://arxiv.org/abs/2106.03122)
-    
+   - **Description:** Maze introduces a novel data-free model stealing attack that uses zeroth-order gradient estimation to replicate model functionality without access to training data, highlighting vulnerabilities in accessible models.  
+   - [Paper Link](https://arxiv.org/abs/2106.03122)
+
 - **A theoretical insight into attack and defense of gradient leakage in transformers**  
-  Explores how gradient sharing can lead to the leakage of sensitive training data.  
-  - [Paper Link](https://arxiv.org/abs/2311.13624)
-    
+   - **Description:** This paper provides theoretical insights into gradient leakage attacks and defenses, showing how attackers can reconstruct sensitive training data by exploiting gradients shared during collaborative learning setups.  
+   - [Paper Link](https://arxiv.org/abs/2311.13624)
+
 - **Extracting Training Data from Large Language Models**  
-  Demonstrates how attackers can reconstruct individual training examples from LLMs.  
-  - [Paper Link](https://arxiv.org/abs/2107.03396)
-    
+   - **Description:** Carlini et al. demonstrate how strategically crafted queries can extract specific training examples from LLMs, exposing risks of private data being unintentionally memorized by models.  
+   - [Paper Link](https://arxiv.org/abs/2107.03396)
+
 - **Ethicist: Targeted training data extraction through loss-smoothed soft prompting and calibrated confidence estimation**  
-  Presents methods for training data extraction using soft prompting and confidence estimation.  
-  - [Paper Link](https://arxiv.org/abs/2307.04401)
-    
-- **Towards Demystifying Membership Inference Attacks**  
-  Analyzes mechanisms behind successful data extraction and membership inference.  
-  - [Paper Link](https://arxiv.org/abs/1807.09173)
-    
+   - **Description:** Ethicist introduces a method combining soft prompting with calibrated confidence estimation to target and extract specific training data, highlighting risks in LLM memorization patterns.  
+   - [Paper Link](https://arxiv.org/abs/2307.04401)
+
 - **What Do Code Models Memorize? An Empirical Study on Large Language Models of Code**  
-  Examines memorization in LLMs, particularly in coding datasets.  
-  - [Paper Link](https://arxiv.org/abs/2308.09932)
-   
-- **Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers**  
-  Discusses risks associated with LLMs generating private or sensitive information.  
-  - [Paper Link](https://arxiv.org/abs/2209.10505)
+   - **Description:** This paper examines the memorization behaviors of code-based LLMs, demonstrating how training data specific to programming tasks can be extracted and potentially misused.  
+   - [Paper Link](https://arxiv.org/abs/2308.09932)
 
 ---
 
 #### Membership Inference Attacks (MIA)
 Membership inference attacks aim to determine whether a specific data point was part of a model's training set. These attacks are critical in evaluating the privacy vulnerabilities of LLMs.
 
-- **Membership Inference Attacks from First Principles**  
-  Proposes foundational techniques for membership inference in modern LLMs.  
-  - [Paper Link](https://arxiv.org/abs/2203.03319)
+- **Membership inference attacks against machine learning models**  
+   - **Description:** This paper formalizes membership inference attacks against ML models, providing a new framework for attacking ML models
+   - [Paper Link](https://arxiv.org/abs/2203.03319)
 
-- **Evaluating Membership Inference Vulnerabilities in LLMs**  
-  Analyzes conditions under which membership inference attacks are more likely to succeed.  
-  - [Paper Link](https://arxiv.org/abs/2303.00117)
+- **Membership Inference Attacks from First Principles**  
+   - **Description:** This paper formalizes membership inference attacks, providing a comprehensive framework for understanding how training data can be detected in model predictions.  
+   - [Paper Link](https://arxiv.org/abs/2203.03319)
+
+- **Towards Demystifying Membership Inference Attacks**  
+   - **Description:** This study analyzes the underlying mechanisms of membership inference attacks and identifies scenarios where such attacks are most effective.  
+   - [Paper Link](https://arxiv.org/abs/1807.09173)
 
 - **Fine-Tuning Vulnerabilities to Membership Inference**  
-  Demonstrates that fine-tuning LLMs increases susceptibility to membership inference attacks.  
-  - [Paper Link](https://arxiv.org/abs/2107.10119)
+   - **Description:** This paper demonstrates how fine-tuning LLMs increases their susceptibility to membership inference attacks compared to adapter-based or other lightweight tuning methods.  
+   - [Paper Link](https://arxiv.org/abs/2107.10119)
+
 ---
 
 ## Unlearning Techniques
