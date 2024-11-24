@@ -21,7 +21,7 @@ Extraction attacks attempt to retrieve sensitive data, gradients, or model funct
    - [Paper Link](https://arxiv.org/abs/2311.13624)
 
 - **Extracting Training Data from Large Language Models**  
-   - **Description:** Carlini et al. demonstrate how strategically crafted queries can extract specific training examples from LLMs, exposing risks of private data being unintentionally memorized by models.  
+   - **Description:** This paper demonstrate how strategically crafted queries can extract specific training examples from LLMs, exposing risks of private data being unintentionally memorized by models.  
    - [Paper Link](https://arxiv.org/abs/2107.03396)
 
 - **Ethicist: Targeted training data extraction through loss-smoothed soft prompting and calibrated confidence estimation**  
