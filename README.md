@@ -5,7 +5,8 @@ This repository is dedicated to exploring **LLM unlearning**, focusing on privac
 ## Key Topics
 
 ### Privacy Attack
-<div aligncenter><img width="900" alt="image" src="https://github.com/LeeJYg/LLM-Unlearning-for-Privacy-Information/blob/main/privacy_attack.png">
+<div aligncenter><img width="900" alt="image" src="https://github.com/LeeJYg/LLM-Unlearning-for-Privacy-Information/blob/main/privacy_attack.png">  
+
 Privacy attacks target the security and privacy of large language models (LLMs), often aiming to extract sensitive information or infer membership details of the training data. This section categorizes these attacks into two key types: **Extraction Attacks** and **Membership Inference Attacks (MIA)**.
 
 ---
@@ -56,7 +57,8 @@ Membership inference attacks aim to determine whether a specific data point was 
 
 ---
 
-## Unlearning Techniques
+## Unlearning Techniques  
+<div aligncenter><img width="900" alt="image" src="https://github.com/LeeJYg/LLM-Unlearning-for-Privacy-Information/blob/main/unlearning_methods.png">  
 
 This section categorizes and summarizes the key techniques in unlearning, including **Parameter Optimization Method**, **Parameter Merging Method**, and **Parameter Agnostic Method**. Each technique is described alongside its key methods and referenced works.
 
