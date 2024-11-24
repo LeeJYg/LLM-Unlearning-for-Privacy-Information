@@ -107,7 +107,7 @@ Parameter merging focuses on reducing computational costs by applying arithmetic
 
 - **Composing Parameter-Efficient Modules with Arithmetic Operations**  
   - **Description:** Uses linear arithmetic operations like addition and negation to integrate parameter-efficient modules without retraining.  
-  - **Reference:** [Paper Link](https://arxiv.org/abs/2403.02124)
+  - **Reference:** [Paper Link](https://arxiv.org/abs/2306.14870)
 
 - **Dissecting Language Models: Machine Unlearning via Selective Pruning**  
   - **Description:** Identifies and removes neurons related to specific behaviors, maintaining network efficiency.  
