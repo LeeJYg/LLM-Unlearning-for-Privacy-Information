@@ -5,7 +5,7 @@ This repository is dedicated to exploring **LLM unlearning**, focusing on privac
 ## Key Topics
 
 ### Privacy Attack
-![Privacy Attack Overview](Pirvacy Attack.png)
+![Privacy Attack Overview](assets/Pirvacy Attack.png)
 Privacy attacks target the security and privacy of large language models (LLMs), often aiming to extract sensitive information or infer membership details of the training data. This section categorizes these attacks into two key types: **Extraction Attacks** and **Membership Inference Attacks (MIA)**.
 
 ---
