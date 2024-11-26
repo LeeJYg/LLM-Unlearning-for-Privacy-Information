@@ -138,12 +138,12 @@ This section summarizes the evaluation methods for assessing the effectiveness o
 
 | ID  | Method Name             | Paper Title                                               | Venue  | Year | Retrain Model | Memorization | Manipulation | MIA  | Query Rewrite | White-box Attack |
 |-----|--------------------------|----------------------------------------------------------|--------|------|---------------|--------------|--------------|------|---------------|------------------|
-| 1   | RWKU                   | RWKU: Benchmarking Real-World Knowledge Unlearning        | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ✅            | ❌               |
-| 2   | MUSE                   | MUSE: Machine Unlearning Six-Way Evaluation               | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ✅            | ❌               |
-| 3   | TOFU                   | TOFU: A Task of Fictitious Unlearning                     | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ❌            | ❌               |
-| 4   | WHP                    | Who’s Harry Potter? Approximate Unlearning               | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ❌            | ❌               |
-| 5   | Attack-and-Defence     | Can Sensitive Information Be Deleted?                     | ICLR   | 2024 | ✅             | ✅           | ❌           | ✅   | ❌            | ✅               |
-| 6   | WMDP                   | The WMDP Benchmark: Measuring Unlearning Performance      | ICML   | 2024 | ✅             | ✅           | ❌           | ✅   | ❌            | ✅               |
+| 1   | RWKU                   | RWKU: Benchmarking Real-World Knowledge Unlearning        | ArXiv  | 2024 | ❌             | ✅           | ✅           | ✅   | ✅            | ❌               |
+| 2   | MUSE                   | MUSE: Machine Unlearning Six-Way Evaluation               | ArXiv  | 2024 | ✅             | ✅           | ✅           | ✅   | ❌            | ❌               |
+| 3   | TOFU                   | TOFU: A Task of Fictitious Unlearning                     | ArXiv  | 2024 | ✅             | ❌           | ✅           | ❌   | ❌            | ❌               |
+| 4   | WHP                    | Who’s Harry Potter? Approximate Unlearning               | ArXiv  | 2024 | ✅             | ❌           | ✅           | ❌   | ❌            | ❌               |
+| 5   | Attack-and-Defence     | Can Sensitive Information Be Deleted?                     | ICLR   | 2024 | ❌             | ❌           | ❌           | ❌   | ✅            | ✅               |
+| 6   | WMDP                   | The WMDP Benchmark: Measuring Unlearning Performance      | ICML   | 2024 | ❌             | ❌           | ✅           | ❌   | ❌            | ❌               |
 ---
 
 ### Detailed Descriptions and Links
