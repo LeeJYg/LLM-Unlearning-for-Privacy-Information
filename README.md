@@ -1,4 +1,4 @@
-# LLM-Unlearning-for-Privacy-Information
+# LLM-Unlearning-Evaluation-for-Privacy-Information
 This repository is dedicated to exploring **LLM unlearning**, focusing on privacy risks and strategies to effectively and efficiently "forget" specific data from large language models. 
 
 ---
